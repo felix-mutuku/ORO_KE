@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/apartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Apartment"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/bungalow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Bungalow"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/commercial_building"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Commercial Building"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/go_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Go-Down"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/holiday_rental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Holiday Rental"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/house"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="House"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/land"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Land"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/maisonette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Maisonette"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/office"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Office"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Plot"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Shop"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/short_term_rental"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Short Term Rental"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/studio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Studio"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/villa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+            android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+            android:gravity="center_vertical"
+            android:text="Villa"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</ScrollView>

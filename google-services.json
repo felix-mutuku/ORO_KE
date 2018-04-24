@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "91729066336",
+    "firebase_url": "https://orochat-ae438.firebaseio.com",
+    "project_id": "orochat-ae438",
+    "storage_bucket": "orochat-ae438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91729066336:android:d0187aaecec93a05",
+        "android_client_info": {
+          "package_name": "com.propertiesKE"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91729066336-uqhdhri4veau27tlnetn6v07dlmrpc11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.propertiesKE",
+            "certificate_hash": "82c51b3e1282c4baca084074dff5060ac2874042"
+          }
+        },
+        {
+          "client_id": "91729066336-e175rbmcphuegp09bm8i4rpk7s4q9ie6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WfHzrAg5ZYRXc4RqD2KDnfKi6DH21a4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91729066336-e175rbmcphuegp09bm8i4rpk7s4q9ie6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

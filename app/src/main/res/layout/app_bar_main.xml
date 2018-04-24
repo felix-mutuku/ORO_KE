@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.propertiesKE.MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_button2">
+
+        <TextView
+            android:id="@+id/create_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_add_circle_black_24dp"
+            android:elevation="16dp"
+            android:text="Create Ad "
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
